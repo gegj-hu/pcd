@@ -1,0 +1,13 @@
+ 总共有6个类，先介绍下每个类的功能：
+
+    DownloadPage.java的功能是下载此超链接的页面源代码.
+
+    FunctionUtils.java 的功能是提供不同的静态方法，包括：页面链接正则表达式匹配,获取URL链接的元素,判断是否创建文件,获取页面的Url并将其转换为规范的Url,截取网页网页源文件的目标内容。
+
+    HrefOfPage.java 的功能是获取页面源代码的超链接。
+
+    UrlDataHanding.java 的功能是整合各个给类，实现url到获取数据到数据处理类。
+
+    UrlQueue.java 的未访问Url队列。
+
+    VisitedUrlQueue.java 已访问过的URL队列。
